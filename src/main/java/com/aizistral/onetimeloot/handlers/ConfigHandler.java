@@ -1,12 +1,11 @@
 package com.aizistral.onetimeloot.handlers;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.common.ForgeConfigSpec.ConfigValue;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ConfigHandler {
 	private static ForgeConfigSpec config;
