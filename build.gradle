@@ -36,7 +36,7 @@ println(" - OS Archetype: " + System.getProperty('os.arch'))
 
 minecraft {
 	println("Specifying MCP mappings...")
-    mappings channel: 'official', version: '1.18.2'
+    mappings channel: 'official', version:  "${version_mc}"
 	println("Specifying Access Transformer configuration...")	
 	// accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 	
